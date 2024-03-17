@@ -1,0 +1,44 @@
+
+.landingPage{
+    background-image: url('../../assets/images/landingImg.png');
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+   
+}
+.content img{
+    width: 265px;
+    height: 265px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    
+}
+.para{
+   
+    color:white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.content a{
+    background-color: brown;
+    height:30px;
+    font-size:20px;
+    color:white;
+    border:1px solid brown;
+    text-decoration: none;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 130px;
+    font-weight: bolder;
+    padding: 8px 50px 8px 50px;
+}

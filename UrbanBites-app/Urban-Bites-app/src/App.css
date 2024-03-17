@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: calc(100vh - 50px - 100px);
+}
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-bottom: 150px;
+}
