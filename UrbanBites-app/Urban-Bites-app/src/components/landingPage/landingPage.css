@@ -9,12 +9,12 @@
    
 }
 .content img{
-    width: 265px;
-    height: 265px;
+    width: 200px;
+    height: 200px;
     display: block;
-    margin-left: auto;
+    margin-left: 5dvb;
     margin-right: auto;
-    margin-top:10%;
+    margin-top:5%;
     
 }
 .para{

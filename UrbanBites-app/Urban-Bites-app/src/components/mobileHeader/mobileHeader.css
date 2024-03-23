@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI';
+}
+.mobileHeader {
+    .imgMobile img{
+        position: absolute;
+        margin-left:15px;
+        margin-top:3px;
+        z-index: 1;
+    }
+    .dropdownMobile{
+        position: absolute;
+        width:100%;
+        background: white;
+        display:flex;
+        float:left;
+        position:relative;
+    }
+    .dropdownMenu{
+        position:absolute;
+        left:calc(100% - 8rem);
+        top:calc(100% + .25rem);
+        color:black;
+        background-color: white;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 150ms ease-in-out;
+    }
+    .dropdownMobile > .menu:focus +.dropdownMenu{
+        opacity: 1;
+    }
+    .dropdownMenu a{
+        text-decoration: none;
+        color:black;
+        text-align: left;
+    }
+    .dropdownMenu ul{
+        list-style: none;
+    }
+    .menu{
+        display: inline-flex;
+        margin-top:3px;
+        z-index: 1;
+        list-style:none;
+        margin-left:calc(100% - 6.7rem);
+        background-color: black;
+        border:none;
+        cursor:pointer;
+    }
+    .menu:hover{
+        background-color: #383737;
+    }
+    .listMobile{
+        padding-top: 5px;
+        padding-left: 4px;
+    }
+    .listMobile:hover{
+        background-color: #3333334C;;
+        font-size:15px;
+    }
+}

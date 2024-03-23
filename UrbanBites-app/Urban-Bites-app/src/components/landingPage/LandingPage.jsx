@@ -1,4 +1,4 @@
-import img from '../../assets/images/miniLogo1.png';
+import img from '../../assets/images/miniLogo2.png';
 import "./landingPage.css";
 import { Link } from 'react-router-dom';
 function LandingPage(){

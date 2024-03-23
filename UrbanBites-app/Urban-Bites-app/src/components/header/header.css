@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI';
+}
+.navList{
+    width:100%;
+    background: black;
+    overflow:auto;
+    display:flex;
+}
+.bar{
+    padding:0;
+    margin:0 0 0 200px;
+    list-style:none;
+}
+.list{
+    float:left;
+}
+.img img{
+    position: absolute;
+    margin-top:15px;
+    margin-left:30px;
+}
+.navList a{
+    display:inline-block;
+    padding:20px 15px;
+    margin-left:30px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+ul li ul.dropdown li{
+    display:block;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+}
+ul li ul.dropdown li a{
+    color:black;
+    width:86%;
+    text-align: start;
+    margin-left:0;
+}
+ul li ul.dropdown{
+    background-color:black;
+    position:absolute;
+    z-index:999;
+    display:none;
+}
+.list a:hover{
+  background-color: #383737;
+}
+.list img{
+    margin-top:3px;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
+ul li ul.dropdown li a:hover{
+    background-color: #3333334C;
+}
+.button a{
+    border:1px solid white;
+    margin:12px 7px 0 0;
+    padding:7px 12px 7px 12px;
+    border-radius: 5px;
+}
+.icon a:hover{
+    background-color: black;
+}
+.icon img{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    margin-top:-10px;
+    margin-left:-40px;
+}
+.icon img:hover{
+    width:41px;
+    height:41px;
+}
+.loggedIn a{
+    border:1px solid white;
+    margin:10px 0 7px 750px;
+    padding:7px 12px 7px 12px;
+    border-radius: 5px;
+}
+@media screen and (max-width:859px){
+   .PC{
+    display:none;
+   }
+   .mobile{
+    display:block;
+   }
+}
+@media screen and (min-width:860px) {
+    .button a{
+        margin-left:20px;
+    }
+    .loggedIn a{
+        margin-left:790px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:925px) {
+    .button a{
+        margin-left:80px;
+    }
+    .loggedIn a{
+        margin-left:830px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1000px) {
+    .button a{
+        margin-left:140px;
+       
+    }
+    .loggedIn a{
+        margin-left:900px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1001px) {
+    .button a{
+        margin-left: 170px;
+    }
+    .loggedIn a{
+        margin-left:930px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1150px) {
+    .button a{
+        margin-left: 320px;
+    }
+    .loggedIn a{
+        margin-left:1050px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1250px) {
+    .button a{
+        margin-left: 420px;
+    }
+    .loggedIn a{
+        margin-left:1150px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1350px) {
+    .button a{
+        margin-left: 480px;
+    }
+    .loggedIn a{
+        margin-left:1250px;
+    }
+    .mobile{
+        display:none;
+    }
+
+}
+@media screen and (min-width:1450px) {
+    .button a{
+        margin-left: 600px;
+    }
+    .loggedIn a{
+        margin-left:1350px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1550px) {
+    .button a{
+        margin-left: 720px;
+    }
+    .loggedIn a{
+        margin-left:1450px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1650px) {
+    .button a{
+        margin-left: 820px;
+    }
+    .loggedIn a{
+        margin-left:1550px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1750px) {
+    .button a{
+        margin-left: 920px;
+    }
+    .loggedIn a{
+        margin-left:1650px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1850px) {
+    .button a{
+        margin-left: 1020px;
+    }
+    .loggedIn a{
+        margin-left:1750px;
+    }
+    .mobile{
+        display:none;
+    }
+}
+@media screen and (min-width:1910px) {
+    .button a{
+        margin-left: 1090px;
+    }
+    .loggedIn a{
+        margin-left:1810px;
+    }
+    .mobile{
+        display:none;
+    }
+}
