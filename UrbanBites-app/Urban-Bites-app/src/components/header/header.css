@@ -95,7 +95,7 @@ ul li ul.dropdown li a:hover{
 }
 @media screen and (min-width:860px) {
     .button a{
-        margin-left:20px;
+        margin-left:40px;
     }
     .loggedIn a{
         margin-left:790px;

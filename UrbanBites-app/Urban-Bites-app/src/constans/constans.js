@@ -1,7 +1,7 @@
 export const INGREDIENTS ='/ingredients';
 export const MEAL_PLANS='/meal-plans';
-export const PUBLIC_RECIPIES="/public-recipies";
-export const MY_RECIPIES="/my-recipies";
-export const RECIPIES_WITH_MY_INGREDIENTS="/recipies-with-my-ingredients";
-export const ADD_NEW_RECIPE="/add-new-recipe";
-export const RECIPES='/recipes';
+export const BREAKFAST="/breakfast";
+export const LUNCH="/lunch";
+export const DINNER="/dinner";
+export const ORDER_NOW="/order-now";
+export const MENU='/menu';

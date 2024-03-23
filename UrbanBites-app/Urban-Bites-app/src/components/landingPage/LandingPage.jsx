@@ -1,20 +1,26 @@
-import img from '../../assets/images/miniLogo2.png';
 import "./landingPage.css";
-import { Link } from 'react-router-dom';
+
+
 function LandingPage(){
+    
     return(
     <div className="landingPage">
         <div className="content">
-            <img src={img} />
-            <div className="para">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quasi</p>
-                <p>ab officia dignissimos consequuntur neque eum quas esse, ullam error</p> 
-                <p>ratione natus fuga voluptatum quis eveniet ipsum! Excepturi, iure verita?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est</p>
-                <p>asperiores ducimus, tempore qui quasi quisquam voluptatem quam</p>
-                <p>exercitationem repudiandae error quaerat delectus reiciendis recusandae.</p>
+            <h1>Urban</h1>
+            <h1>Bites & Sips</h1>
+            <h2>OUR STORY</h2>
+            <div className="story"> 
+                <p>Seven dishes. Six drinks. That's what we started with. </p>
+                <p>Our initial menu was lean but perfectly curated. Our   </p>
+                <p>offerings have grown a lot since then, but our commitment </p>
+                <p>to perfection remains.</p>
             </div>
-            <Link to="/start">Discover More</Link>
+            <div className="para">
+               <p>Where great food and </p>
+               <p>great drinks meet </p>
+
+            </div>
+           
         </div>
     </div>
     )

@@ -2,7 +2,7 @@ import menu from '../../assets/images/menu.png';
 import img from '../../assets/images/headerImg.png';
 import {Link} from 'react-router-dom';
 import './mobileHeader.css';
-import {INGREDIENTS, MEAL_PLANS, ADD_NEW_RECIPE, RECIPES} from '../../constans/constans.js';
+import {INGREDIENTS, MEAL_PLANS, ORDER_NOW, MENU} from '../../constans/constans.js';
 function MobileHeader(){
     return(
         <div className="mobileHeader">
@@ -14,7 +14,7 @@ function MobileHeader(){
                 <div className="dropdownMenu">
                 <ul>
                     <li className="listMobile">
-                        <a href={RECIPES}>Recipes</a>
+                        <a href={MENU}>Menu</a>
                     </li>
                     <li className="listMobile">
                         <a href={INGREDIENTS}>Ingredients</a>
@@ -23,7 +23,7 @@ function MobileHeader(){
                         <a href={MEAL_PLANS}>Meal Plans</a>
                     </li>
                     <li className="listMobile">
-                            <a href={ADD_NEW_RECIPE}>Add new recipe</a>
+                            <a href={ORDER_NOW}>ORDER NOW</a>
                     </li>
                     <li className="listMobile">
                         <div className="iconMobile">

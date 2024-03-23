@@ -1,3 +1,8 @@
+* p, h2{
+    font-family:"Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .landingPage{
     background-image: url('../../assets/images/landingImg.png');
@@ -7,38 +12,62 @@
     background-size: cover;
     background-position: center;
    
+   
 }
-.content img{
-    width: 200px;
-    height: 200px;
+.content h1{
+    
+    color:white;
+    font-family:"Pacifico", cursive;
+    font-size:5vw;
+    font-weight: 400;
+    font-style: normal;
+    height: 5px;
     display: block;
     margin-left: 5dvb;
     margin-right: auto;
-    margin-top:5%;
-    
+    margin-top:2.5%;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px black;
+}
+h2{
+    font-size: 3vw;
+    display: absolute;
+    font-style: normal;
+    width: 200px;
+    color:white;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    margin-top:9%;
+    text-shadow: 2px 2px black;
+    margin-left: 8dvb;
+    margin-right: auto;
+}
+.story{
+    font-style: normal;
+    color:white;
+    font-size:2vw;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    margin-top: 9%;
+    margin-left:35%;
+    text-shadow: 2px 2px black;
 }
 .para{
    
+    font-style: normal;
     color:white;
+    font-size:1.7vw;
     text-align: center;
+    position: absolute;
+    border-radius: 150px;
+    border: 2px solid white;
+    padding: 50px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-}
-.content a{
-    background-color: brown;
-    height:30px;
-    font-size:20px;
-    color:white;
-    border:1px solid brown;
-    text-decoration: none;
-    position: absolute; 
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 130px;
-    font-weight: bolder;
-    padding: 8px 50px 8px 50px;
+    margin-top: 22%;
+    margin-left: 70%;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px black;
+   
 }

@@ -4,7 +4,7 @@ import logo from '../../assets/images/loginIcon.jpg';
 import arrow from '../../assets/images/arrow.png';
 import { Link } from 'react-router-dom';
 import MobileHeader from '../mobileHeader/MobileHeader';
-import {INGREDIENTS, MEAL_PLANS, PUBLIC_RECIPIES, MY_RECIPIES, RECIPIES_WITH_MY_INGREDIENTS, ADD_NEW_RECIPE} from '../../constans/constans.js';
+import {INGREDIENTS, MEAL_PLANS, BREAKFAST,LUNCH,DINNER, ORDER_NOW} from '../../constans/constans.js';
 import {useState} from 'react';
 function Header()
 {
@@ -19,18 +19,18 @@ function Header()
                     {isLogged &&
                         <ul className="bar">
                             <li className="list">
-                                <a href="#">Recipes <img src={arrow} /></a>
+                                <a href="#">Menu <img src={arrow} /></a>
                                 <ul className="dropdown">
-                                    <li><a href={PUBLIC_RECIPIES}>Public recipes</a></li>
-                                    <li><a href={MY_RECIPIES}>My recipes</a></li>
-                                    <li><a href={RECIPIES_WITH_MY_INGREDIENTS}>Recipes with my ingredients</a></li>
+                                    <li><a href={BREAKFAST}>Breakfast</a></li>
+                                    <li><a href={LUNCH}>Lunch</a></li>
+                                    <li><a href={DINNER}>Dinner</a></li>
                                 </ul>
                             </li>
                             <li className="list"><a href={INGREDIENTS}>Ingredients</a></li>
                             <li className="list"><a href={MEAL_PLANS}>Meal Plans</a></li>
                             <li className="list">
                                 <div className="button">
-                                    <a href={ADD_NEW_RECIPE}>ADD NEW RECIPE</a>
+                                    <a href={ORDER_NOW}>ORDER NOW</a>
                                 </div>
                             </li>
                             <li className="list">
