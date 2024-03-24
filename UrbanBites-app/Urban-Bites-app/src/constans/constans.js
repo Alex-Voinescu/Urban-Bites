@@ -1,7 +1,9 @@
-export const INGREDIENTS ='/ingredients';
-export const MEAL_PLANS='/meal-plans';
+export const HOME ='/home';
+export const CONTACT='/contact';
 export const BREAKFAST="/breakfast";
 export const LUNCH="/lunch";
 export const DINNER="/dinner";
+export const DESERT="/desert";
+export const DRINKS="/drinks";
 export const ORDER_NOW="/order-now";
 export const MENU='/menu';
