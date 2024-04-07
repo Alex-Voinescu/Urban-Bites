@@ -1,7 +1,6 @@
-.backb a{
+.backl a{
     display:inline-block;
     margin-right:auto;
-    margin-left: 64.6%;
     margin-top: -1%;
     text-decoration: none;
     color:white;
@@ -9,7 +8,8 @@
     font-family:"Pacifico", cursive;
     text-shadow: 2px 2px black;
     font-size: 2vw;
+    margin-left: 71.5%;
 }
-.backb a:hover{
+.backl a:hover{
     background-color: #ffffff4c;
 }

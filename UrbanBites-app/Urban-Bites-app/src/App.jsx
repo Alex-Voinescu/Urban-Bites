@@ -3,6 +3,7 @@ import './App.css'
 import LandingPage from './components/landingPage/LandingPage.jsx'
 import Header from './components/header/Header.jsx';
 import Breakfast from './components/breakfast/Breakfast.jsx';
+import Lunch from "./components/lunch/Lunch.jsx";
 
 export default function App() {
  
@@ -20,6 +21,7 @@ export default function App() {
           }
         />
         <Route  path="breakfast"  element={<Breakfast />} />
+        <Route  path="lunch"  element={<Lunch />} />
       </Routes>
     </BrowserRouter>
   )
