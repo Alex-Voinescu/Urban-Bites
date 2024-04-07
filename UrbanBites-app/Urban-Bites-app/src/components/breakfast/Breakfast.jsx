@@ -1,7 +1,7 @@
 import React from "react"
 import { useEffect, useState } from "react"
 import './breakfast.css';
-
+import { PAGE } from "../../constans/constans";
 function Breakfast() {
     const [data,setData] = useState([]);
     useEffect(()=> {
@@ -12,26 +12,25 @@ function Breakfast() {
 
     },[])
     return(
-        <div className="content">
-             <h1>Breakfast</h1>
-            <h1>Menu</h1>
+        <div className="contentb">
+             <h1 className="bf">Breakfast</h1>
+            <h1 className="bf">Menu</h1>
+            <div className="backb">
+                <a href={PAGE}>Home</a>
+            </div>
             <table className="table">
-                <thead>
-                    <tr className="row">
-                        <th>Number</th>
-                        <th>Name</th>
-                        <th>Price $</th>
-                    </tr> 
-                </thead>
                 <tbody>
                     {data.map((d,i) => (
-                        <tr key={i} className="row">
-                            <td>{d.NrCrt}</td>
+                        <><tr key={i} className="row">
                             <td>{d.Name}</td>
-                            <td>{d.Price}</td>
-                        </tr>
+                            <td>${d.Price}</td>
+
+                        </tr><tr className="ingredients">
+                                <td>{d.ingredients}</td>
+                            </tr></>
                     ))}
                 </tbody>
+             
             </table>
         </div>
     )

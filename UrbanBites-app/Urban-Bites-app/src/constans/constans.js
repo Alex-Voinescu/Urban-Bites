@@ -7,3 +7,4 @@ export const DESERT="/desert";
 export const DRINKS="/drinks";
 export const ORDER_NOW="/order-now";
 export const MENU='/menu';
+export const PAGE='/';
