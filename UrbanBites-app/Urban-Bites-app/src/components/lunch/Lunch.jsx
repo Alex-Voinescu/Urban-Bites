@@ -15,7 +15,7 @@ function Lunch() {
     return(
         <div className="contentb">
              <h1 className="bf">Lunch</h1>
-            <h1 className="bf">Menu</h1>
+            <h1 className="bf">Delights</h1>
             <div className="backl">
                 <a href={HOME}>Home</a>
             </div>

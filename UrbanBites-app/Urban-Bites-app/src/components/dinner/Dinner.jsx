@@ -2,12 +2,12 @@ import React from "react"
 import { useEffect, useState } from "react"
 import '../reuseStyles/Menu.css'
 import { HOME } from "../../constans/constans";
-import './breakfast.css';
+import './dinner.css';
 
-function Breakfast() {
+function Dinner() {
     const [data,setData] = useState([]);
     useEffect(()=> {
-        fetch('http://localhost:8081/breakfast')
+        fetch('http://localhost:8081/dinner')
         .then(res => res.json())
         .then(data => setData(data))
         .catch(err => console.log(err));
@@ -15,9 +15,9 @@ function Breakfast() {
     },[])
     return(
         <div className="contentb">
-             <h1 className="bf">Morning</h1>
-            <h1 className="bf">Meals</h1>
-            <div className="backb">
+             <h1 className="bf">Dinner</h1>
+            <h1 className="bf">Menu</h1>
+            <div className="backd">
                 <a href={HOME}>Home</a>
             </div>
             <table className="table">
@@ -37,4 +37,4 @@ function Breakfast() {
         </div>
     )
 }
-export default Breakfast;
+export default Dinner;

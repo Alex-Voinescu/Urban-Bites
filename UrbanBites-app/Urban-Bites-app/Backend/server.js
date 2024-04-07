@@ -34,6 +34,30 @@ app.get('/lunch', (req,res)=>{
     })
 })
 
+app.get('/dinner', (req,res)=>{
+    const sql="SELECT * FROM dinner";
+    db.query(sql, (err,data)=>{
+        if(err) return res.json(err);
+        return res.json(data);
+    })
+})
+
+app.get('/desert', (req,res)=>{
+    const sql="SELECT * FROM desert";
+    db.query(sql, (err,data)=>{
+        if(err) return res.json(err);
+        return res.json(data);
+    })
+})
+
+app.get('/drinks', (req,res)=>{
+    const sql="SELECT * FROM drinks";
+    db.query(sql, (err,data)=>{
+        if(err) return res.json(err);
+        return res.json(data);
+    })
+})
+
 app.listen(8081, ()=>{
     console.log("listening")
 })
