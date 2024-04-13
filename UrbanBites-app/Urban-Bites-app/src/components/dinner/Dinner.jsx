@@ -1,7 +1,7 @@
 import React from "react"
 import { useEffect, useState } from "react"
 import '../reuseStyles/Menu.css'
-import { HOME } from "../../constans/constans";
+import { LANDING } from "../../constans/constans";
 import './dinner.css';
 
 function Dinner() {
@@ -18,7 +18,7 @@ function Dinner() {
              <h1 className="bf">Dinner</h1>
             <h1 className="bf">Menu</h1>
             <div className="backd">
-                <a href={HOME}>Home</a>
+                <a href={LANDING}>Home</a>
             </div>
             <table className="table">
                 <tbody>

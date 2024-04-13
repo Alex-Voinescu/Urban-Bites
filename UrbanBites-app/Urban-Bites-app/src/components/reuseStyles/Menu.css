@@ -46,7 +46,9 @@
     padding-top: 2%;
     text-align:center;
 }
-
-.backb a:hover{
-    background-color: #ffffff4c;
+.row th,td:hover{
+    background: rgba(248, 242, 242, 0.8)
+}
+.row td:hover{
+    background: rgba(100, 100, 100, 0.8)
 }

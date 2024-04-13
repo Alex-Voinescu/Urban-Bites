@@ -1,4 +1,4 @@
-export const HOME ='/';
+export const LANDING ='/';
 export const CONTACT='/contact';
 export const BREAKFAST="/breakfast";
 export const LUNCH="/lunch";
@@ -7,3 +7,4 @@ export const DESERT="/desert";
 export const DRINKS="/drinks";
 export const ORDER_NOW="/order-now";
 export const MENU='/menu';
+export const HOME='/home'

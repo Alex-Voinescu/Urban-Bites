@@ -71,3 +71,7 @@ h2{
     text-shadow: 2px 2px black;
    
 }
+
+.story:hover{
+    background: rgba(100, 100, 100, 0.8);
+}

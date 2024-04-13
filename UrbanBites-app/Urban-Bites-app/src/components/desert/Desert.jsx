@@ -1,7 +1,7 @@
 import React from "react"
 import { useEffect, useState } from "react"
 import '../reuseStyles/Menu.css'
-import { HOME } from "../../constans/constans";
+import { LANDING } from "../../constans/constans";
 import './desert.css';
 
 function Desert() {
@@ -17,7 +17,7 @@ function Desert() {
         <div className="contentb">
              <h1 className="bf">Deserts</h1>
             <div className="backde">
-                <a href={HOME}>Home</a>
+                <a href={LANDING}>Home</a>
             </div>
             <table className="table">
                 <tbody>

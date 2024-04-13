@@ -1,7 +1,7 @@
 import React from "react"
 import { useEffect, useState } from "react"
 import '../reuseStyles/Menu.css';
-import { HOME } from "../../constans/constans";
+import { LANDING } from "../../constans/constans";
 import './lunch.css';
 function Lunch() {
     const [data,setData] = useState([]);
@@ -17,7 +17,7 @@ function Lunch() {
              <h1 className="bf">Lunch</h1>
             <h1 className="bf">Delights</h1>
             <div className="backl">
-                <a href={HOME}>Home</a>
+                <a href={LANDING}>Home</a>
             </div>
             <table className="table">
                 <tbody>
