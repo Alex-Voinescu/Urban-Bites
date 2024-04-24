@@ -1,0 +1,75 @@
+.homeimg{
+    background-image: url('../../assets/images/landingImg.png');
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenth h1{
+    color:white;
+    font-family:"Pacifico", cursive;
+    font-size:5vw;
+    font-weight: 400;
+    font-style: normal;
+    height: 5px;
+    display: block;
+    margin-left: 5dvb;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-shadow: 2px 2px black;
+}
+
+.storyh{
+    font-style: normal;
+    color:white;
+    font-size:2vw;
+    text-align: center;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left:32vw;
+    text-shadow: 2px 2px black;
+}
+
+.backh a{
+    display:inline-block;
+    margin-right:auto;
+    text-decoration: none;
+    margin-top: -3%;
+    color:white;
+    text-align: center;
+    font-family:"Pacifico", cursive;
+    text-shadow: 2px 2px black;
+    font-size: 3vw;
+    margin-left: 71.5%;
+}
+
+.storyh:hover{
+    background: rgba(100, 100, 100, 0.8);
+}
+
+.open{
+    text-align: center;
+    color:white;
+    font-size: 3vw;
+    margin-top:3vw;
+}
+
+.hometable{
+    display:inline-block;
+    margin-right:auto;
+    margin-top:1vw;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family:"Pacifico", cursive;
+    text-shadow: 2px 2px black;
+    font-size: 2.4vw;
+}
+
+.hometable tr:hover{
+    background: rgba(100, 100, 100, 0.8);
+}
+.hometable td:hover{
+    background: rgba(100, 100, 100, 0.8);
+}

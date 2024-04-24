@@ -7,6 +7,7 @@ import Lunch from "./components/lunch/Lunch.jsx";
 import Dinner from "./components/dinner/Dinner.jsx";
 import Desert from "./components/desert/Desert.jsx";
 import Drinks from "./components/drinks/Drinks.jsx";
+import Home from "./components/homecmp/Home.jsx";
 
 export default function App() {
  
@@ -28,6 +29,7 @@ export default function App() {
         <Route  path="dinner"  element={<Dinner />} />
         <Route  path="desert"  element={<Desert />} />
         <Route  path="drinks"  element={<Drinks />} />
+        <Route  path="home"  element={<Home />} />
       </Routes>
     </BrowserRouter>
   )
