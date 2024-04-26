@@ -1,0 +1,15 @@
+.animation{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation{
+    0%{
+        opacity: 0;
+        transform: translateY(10vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

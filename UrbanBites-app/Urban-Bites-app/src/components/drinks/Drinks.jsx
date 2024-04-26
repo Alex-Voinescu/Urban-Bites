@@ -15,6 +15,7 @@ function Drinks() {
     },[])
     return(
         <div className="contentb">
+            <div className="animation">
              <h1 className="bf">Special</h1>
             <h1 className="bf">Drinks</h1>
             <div className="backdi">
@@ -34,6 +35,7 @@ function Drinks() {
                 </tbody>
              
             </table>
+        </div>
         </div>
     )
 }

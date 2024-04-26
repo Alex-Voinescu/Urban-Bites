@@ -1,0 +1,79 @@
+.contactimg{
+    background-image: url('../../assets/images/landingImg.png');
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.cimages div{
+    display: flex;
+    border-radius: 50%;
+    background-color: aliceblue;
+    box-shadow: 0px 10px 10px 0px grey;
+    width: 9vw;
+    height: 9vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+}
+.cimages img{
+    width: 6vw;
+    height: 6vw;
+    
+}
+.cimages{
+    margin-left: 3vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    overflow: hidden;
+}
+.contact h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 5vw;
+    padding-top: 1vw;
+}
+
+.backc a{
+    display:inline-block;
+    margin-right:auto;
+    margin-left: 70%;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family:"Pacifico", cursive;
+    text-shadow: 2px 2px black;
+    font-size: 2vw;
+}
+
+.backc a:hover{
+    background-color: #ffffff4c;
+}
+
+.contactInfo{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1vw;
+}
+.titles td{
+    font-weight:bolder;
+}
+
+.contactInfo td:hover{
+    background-color: transparent;
+}
+
+
+
+.contactInfo tr:hover{
+    background: rgba(100, 100, 100, 0.8)
+}
+
+.emoji td,tr:hover{
+    font-weight: bolder;
+    background-color: transparent;
+}

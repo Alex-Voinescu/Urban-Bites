@@ -15,6 +15,7 @@ function Desert() {
     },[])
     return(
         <div className="contentb">
+            <div className="animation">
              <h1 className="bf">Deserts</h1>
             <div className="backde">
                 <a href={LANDING}>Home</a>
@@ -33,6 +34,7 @@ function Desert() {
                 </tbody>
              
             </table>
+        </div>
         </div>
     )
 }

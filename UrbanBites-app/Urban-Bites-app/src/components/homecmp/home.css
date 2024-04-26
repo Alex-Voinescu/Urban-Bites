@@ -12,9 +12,9 @@
     font-size:5vw;
     font-weight: 400;
     font-style: normal;
-    height: 5px;
+    height: 7px;
     display: block;
-    margin-left: 5dvb;
+    margin-left: 7vw;
     margin-right: auto;
     margin-bottom: 5%;
     text-shadow: 2px 2px black;
@@ -27,7 +27,7 @@
     text-align: center;
     display: inline-block;
     margin-top: 3%;
-    margin-left:32vw;
+    margin-left:7vw;
     text-shadow: 2px 2px black;
 }
 
@@ -44,7 +44,14 @@
     margin-left: 71.5%;
 }
 
-.storyh:hover{
+.paragraf{
+    margin-bottom: 5%;
+}
+
+.backh a:hover{
+    background-color: #ffffff4c;
+}
+.paragraf:hover{
     background: rgba(100, 100, 100, 0.8);
 }
 

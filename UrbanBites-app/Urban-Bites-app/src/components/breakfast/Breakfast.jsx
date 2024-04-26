@@ -14,7 +14,9 @@ function Breakfast() {
 
     },[])
     return(
+       
         <div className="contentb">
+             <div className="animation">
              <h1 className="bf">Morning</h1>
             <h1 className="bf">Meals</h1>
             <div className="backb">
@@ -34,6 +36,7 @@ function Breakfast() {
                 </tbody>
              
             </table>
+        </div>
         </div>
     )
 }
