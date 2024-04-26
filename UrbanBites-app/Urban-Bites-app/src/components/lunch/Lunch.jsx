@@ -18,7 +18,7 @@ function Lunch() {
              <h1 className="bf">Lunch</h1>
             <h1 className="bf">Delights</h1>
             <div className="backl">
-                <a href={LANDING}>Home</a>
+                <a href={LANDING}>Back</a>
             </div>
             <table className="table">
                 <tbody>

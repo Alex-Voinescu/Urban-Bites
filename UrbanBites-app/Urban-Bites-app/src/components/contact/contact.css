@@ -77,3 +77,9 @@
     font-weight: bolder;
     background-color: transparent;
 }
+
+@media screen and (max-width:910px) {
+  .contactimg{
+    position: fixed;
+  }
+}

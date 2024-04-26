@@ -19,7 +19,7 @@ function Dinner() {
              <h1 className="bf">Dinner</h1>
             <h1 className="bf">Menu</h1>
             <div className="backd">
-                <a href={LANDING}>Home</a>
+                <a href={LANDING}>Back</a>
             </div>
             <table className="table">
                 <tbody>

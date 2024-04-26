@@ -5,6 +5,6 @@ export const LUNCH="/lunch";
 export const DINNER="/dinner";
 export const DESERT="/desert";
 export const DRINKS="/drinks";
-export const ORDER_NOW="/order-now";
+export const BOOK_NOW="/book-now";
 export const MENU='/menu';
 export const HOME='/home';

@@ -12,7 +12,7 @@ function Contact(){
              <div className="contact">
                 <h1>Get in Touch</h1>
                 <div className="backc">
-                    <a href={LANDING}>Home</a>
+                    <a href={LANDING}>Back</a>
                 </div>
                 <div className="cimages">
                     <div><img src={adress}/></div>

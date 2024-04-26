@@ -18,7 +18,7 @@ function Desert() {
             <div className="animation">
              <h1 className="bf">Deserts</h1>
             <div className="backde">
-                <a href={LANDING}>Home</a>
+                <a href={LANDING}>Back</a>
             </div>
             <table className="table">
                 <tbody>

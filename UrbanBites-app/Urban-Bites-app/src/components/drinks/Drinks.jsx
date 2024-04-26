@@ -19,7 +19,7 @@ function Drinks() {
              <h1 className="bf">Special</h1>
             <h1 className="bf">Drinks</h1>
             <div className="backdi">
-                <a href={LANDING}>Home</a>
+                <a href={LANDING}>Back</a>
             </div>
             <table className="table">
                 <tbody>

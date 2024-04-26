@@ -4,7 +4,7 @@ import logo from '../../assets/images/loginIcon.jpg';
 import arrow from '../../assets/images/arrow.png';
 import { Link } from 'react-router-dom';
 import MobileHeader from '../mobileHeader/MobileHeader';
-import {HOME, CONTACT, BREAKFAST,LUNCH,DINNER,DESERT,DRINKS, ORDER_NOW} from '../../constans/constans.js';
+import {HOME, CONTACT, BREAKFAST,LUNCH,DINNER,DESERT,DRINKS, BOOK_NOW} from '../../constans/constans.js';
 import {useState} from 'react';
 function Header()
 {
@@ -16,7 +16,6 @@ function Header()
                     <img src={img} />
                 </div>
                 <nav className="navList">
-                    {isLogged &&
                         <ul className="bar">
                             <li className="list">
                                 <div className='menu'>
@@ -34,19 +33,10 @@ function Header()
                             <li className="list"><a href={CONTACT}>Contact</a></li>
                             <li className="list">
                                 <div className="button">
-                                    <a href={ORDER_NOW}>ORDER NOW</a>
+                                    <a href={BOOK_NOW}>BOOK NOW</a>
                                 </div>
                             </li>
-                            <li className="list">
-                                <div className="icon">
-                                    <Link to="/login"><img src={logo} /></Link>
-                                </div>
-                            </li>
-                        </ul>}
-                    {!isLogged &&
-                        <div className="loggedIn">
-                            <Link to="/login">LOGIN</Link>
-                        </div>}
+                        </ul>
                 </nav>
             </div>
             <div className='mobile'>

@@ -20,7 +20,7 @@ function Breakfast() {
              <h1 className="bf">Morning</h1>
             <h1 className="bf">Meals</h1>
             <div className="backb">
-                <a href={LANDING}>Home</a>
+                <a href={LANDING}>Back</a>
             </div>
             <table className="table">
                 <tbody>

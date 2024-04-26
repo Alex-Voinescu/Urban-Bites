@@ -2,7 +2,7 @@ import menu from '../../assets/images/menu.png';
 import img from '../../assets/images/headerImg.png';
 import {Link} from 'react-router-dom';
 import './mobileHeader.css';
-import {LANDING, CONTACT, ORDER_NOW, MENU} from '../../constans/constans.js';
+import {LANDING, CONTACT, BOOK_NOW, MENU} from '../../constans/constans.js';
 function MobileHeader(){
     return(
         <div className="mobileHeader">
@@ -23,12 +23,7 @@ function MobileHeader(){
                         <a href={CONTACT}>Contact</a>
                     </li>
                     <li className="listMobile">
-                            <a href={ORDER_NOW}>ORDER NOW</a>
-                    </li>
-                    <li className="listMobile">
-                        <div className="iconMobile">
-                            <Link to="/login">Login</Link>
-                        </div>
+                            <a href={BOOK_NOW}>BOOK NOW</a>
                     </li>
                 </ul>
                 </div>
