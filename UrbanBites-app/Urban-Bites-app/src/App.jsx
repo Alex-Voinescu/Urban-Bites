@@ -9,6 +9,7 @@ import Desert from "./components/desert/Desert.jsx";
 import Drinks from "./components/drinks/Drinks.jsx";
 import Home from "./components/homecmp/Home.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Book from "./components/book/Book.jsx";
 
 export default function App() {
  
@@ -32,6 +33,7 @@ export default function App() {
         <Route  path="drinks"  element={<Drinks />} />
         <Route  path="home"  element={<Home />} />
         <Route  path="contact"  element={<Contact/>} />
+        <Route  path="book-now"  element={<Book/>} />
       </Routes>
     </BrowserRouter>
   )

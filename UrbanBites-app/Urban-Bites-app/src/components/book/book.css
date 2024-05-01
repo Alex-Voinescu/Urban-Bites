@@ -1,0 +1,58 @@
+.bookImage{
+    background-image: url('../../assets/images/landingImg.png');
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.bookT h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top:3vw;
+    margin-bottom:3vw;
+    display: inline-block;
+}
+.book{
+    text-align: center;
+    color:aliceblue;
+    flex: 1;
+    position: relative;
+	text-align:center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-shadow: 2px 2px black;
+}
+.book label,button,input,select{
+    justify-content:center;
+    text-decoration: none;
+    padding: 1vw 1vw;
+    margin: 0.2vw 0.2vw;
+    border-radius: 5px;
+
+}
+.book a{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family:"Pacifico", cursive;
+    text-shadow: 2px 2px black;
+    font-size: 2vw;
+    margin-inline-start:5vw;
+}
+.book a:hover{
+    background-color: #ffffff4c;
+}
+.book button{
+    background-color: transparent;
+    color:aliceblue;
+    font-size: 3vw;
+    text-shadow: 2px 2px black;
+}
+#submit:hover{
+    background-color: #ffffff4c;
+}
