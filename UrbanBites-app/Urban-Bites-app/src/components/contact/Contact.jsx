@@ -30,9 +30,10 @@ function Contact(){
                             <td>(555) 555-1234</td>
                             <td> downtown@urbanbites&sips.com</td>
                         </tr>
-                        <tr className="emoji">
-                            <td colspan="2">༼ つ ◕_◕ ༽つ🍰🍔🍕 </td>
-                            <td> 🍰🍔🍕⊂༼ ◕_◕ ⊂ ༽ </td>
+                        <tr>
+                            <td colspan="3">- - - - - - - - - - - - - - -
+                             - - - - - - - - - - - - - - - - - - - - - - -
+                              - - - - - - - - - - - - - - - - - - -</td>
                         </tr>
                         <tr className="titles">
                             <td>Riverside Location</td>
@@ -44,9 +45,10 @@ function Contact(){
                             <td>(555) 555-9012</td>
                             <td>riverside@urbanbites&sips.com</td>
                         </tr>
-                        <tr className="emoji">
-                            <td colspan="2">༼ つ ◕_◕ ༽つ🍰🍔🍕 </td>
-                            <td> 🍰🍔🍕⊂༼ ◕_◕ ⊂ ༽ </td>
+                        <tr>
+                        <td colspan="3">- - - - - - - - - - - - - - -
+                             - - - - - - - - - - - - - - - - - - - - - - -
+                              - - - - - - - - - - - - - - - - - - -</td>
                         </tr>
                         <tr className="titles">
                             <td>Central Park Location</td>
@@ -58,9 +60,10 @@ function Contact(){
                             <td>(555) 555-3456</td>
                             <td>centralpark@urbanbites&sips.com</td>
                         </tr>
-                            <tr className="emoji">
-                                <td colspan="2">༼ つ ◕_◕ ༽つ🍰🍔🍕 </td>
-                                <td> 🍰🍔🍕⊂༼ ◕_◕ ⊂ ༽ </td>
+                            <tr>
+                            <td colspan="3">- - - - - - - - - - - - - - -
+                             - - - - - - - - - - - - - - - - - - - - - - -
+                              - - - - - - - - - - - - - - - - - - -</td>
                             </tr>
                 </table>
                 <h1>Come visit us!</h1>

@@ -32,7 +32,7 @@
     overflow: hidden;
 }
 .contact h1{
-    color: aliceblue;
+    color: white;
     text-align: center;
     font-size: 5vw;
     padding-top: 1vw;
@@ -73,10 +73,7 @@
     background: rgba(100, 100, 100, 0.8)
 }
 
-.emoji td,tr:hover{
-    font-weight: bolder;
-    background-color: transparent;
-}
+
 
 @media screen and (max-width:910px) {
   .contactimg{
